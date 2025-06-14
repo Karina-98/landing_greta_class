@@ -1,0 +1,32 @@
+@use './helpers/abstracts' as *;
+
+
+.learning_slider_block{
+    position: relative;
+}
+
+.learning_slider__in{
+    display: flex;
+}
+
+.learning_slider__title{
+    font-family: $font_inter;
+        font-weight: 700;
+        font-size: 2rem; 
+        line-height: 1.25;
+}
+
+.learning_slider__item{
+    padding: 3rem 3rem 7rem;
+        background-color: #fce4ec;
+        border-radius: 4rem;
+}
+
+.learning_slider__btn{
+    position: absolute;
+    		top: 50%;
+    		transform: translateY(-50%);
+    		background-color: tomato;
+    		width: 2rem;
+    		height: 5rem;
+    		cursor: pointer;}
